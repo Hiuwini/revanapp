@@ -1,0 +1,13 @@
+{% extends 'participantes/base.html' %}
+{% load static %}
+{% block content %}
+
+<h4>Detalles</h4>
+
+<p><span class="txt_negrita">Nombre:</span> <br> {{object.nombre}}</p>
+<p><span class="txt_negrita">Apellido:</span> <br> {{object.apellido}}</p>
+<p><span class="txt_negrita">Telefono:</span> <br> {{object.telefono}}</p>
+
+<a href="../" type="submit" class="btn btn-primary">Volver</a>
+
+{% endblock %}

@@ -1,0 +1,13 @@
+{% extends 'participantes/base.html' %}
+{% load static %}
+{% block content %}
+
+<h4>Detalles</h4>
+
+<p><span class="txt_negrita">Nombre:</span> <br> {{object.nombre}}</p>
+<p><span class="txt_negrita">Lugar:</span> <br> {{object.lugar}}</p>
+<p><span class="txt_negrita">Fecha:</span> <br> {{object.fecha}}</p>
+
+<a href="../" type="submit" class="btn btn-primary">Volver</a>
+
+{% endblock %}
